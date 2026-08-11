@@ -2,6 +2,7 @@ class Employee:
     def __init__(self,name,basicsalary):
         self.name = name
         self.basicslary = basicsalary
+    @staticmethod
     def calculate(self):
         HRA = (20/100)*self.basicslary
         DA = (10/100)*self.basicslary
