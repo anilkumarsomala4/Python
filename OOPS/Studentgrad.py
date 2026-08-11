@@ -22,4 +22,6 @@ s2 = Student("Dhana Sri",[80,85,90,96,99])
 s3= Student("Jhon",[56,45,30,20,29])
 s1.grade()
 s2.grade()
+s3.grade()
+s3.name="HI"
 s3.grade()        
