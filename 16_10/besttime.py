@@ -1,11 +1,11 @@
 def Best(nums):
     min = nums[0]
-    max = 0
-    for i in nums:
-        if i < min:
-            min = i
-        profit = i - min
+    max = -1
+    for i in range(1,len(nums)):
+        if nums[i] < min:
+            min = nums[i]
+        profit = nums[i] - min
         if profit > max:
             max = profit
     return max
-print(Best([7,2,1,4,7,3,8]))
+print(Best([1,9,4,3,2]))
