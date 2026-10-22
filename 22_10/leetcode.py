@@ -7,4 +7,4 @@ def greater(arr):
         arr[i] = ans
         ans = max(ans, temp)
     return arr
-print(greater([7,6,5,4,3,2,1]))
+print(greater([7,6,5,4,3,2,0]))
